@@ -116,13 +116,13 @@ public class EulerProblems extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(3, 3, 6, 3);
         getContentPane().add(doProblemJButton, gridBagConstraints);
 
-        problemSelectionJSpinner.setFont(new java.awt.Font("Lucida Console", 0, 12)); // NOI18N
+        problemSelectionJSpinner.setFont(new java.awt.Font("Lucida Console", 0, 12));
         problemSelectionJSpinner.setModel(new javax.swing.SpinnerNumberModel(3, 3, 100, 1));
         problemSelectionJSpinner.setPreferredSize(new java.awt.Dimension(50, 20));
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
-        gridBagConstraints.insets = new java.awt.Insets(3, 3, 6, 3);
+        gridBagConstraints.insets = new java.awt.Insets(3, 6, 6, 3);
         getContentPane().add(problemSelectionJSpinner, gridBagConstraints);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
