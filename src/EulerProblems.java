@@ -184,6 +184,9 @@ public class EulerProblems extends javax.swing.JFrame {
                case 11:
                     outputJTextArea.setText(doProblem.problemEleven());
                     break;
+               case 12:
+                   outputJTextArea.setText(doProblem.problemTwelve());
+                   break;
 
           }
      }//GEN-LAST:event_doProblemJButtonActionPerformed
